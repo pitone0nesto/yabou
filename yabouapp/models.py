@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-CATEGORY =(('war','軍事'),('life','内政'),('other','その他'))
+CATEGORY =(('war','軍事'),('dome','内政'),('other','その他'))
 
 class SampleModel(models.Model):
     title = models.CharField(max_length=100)
